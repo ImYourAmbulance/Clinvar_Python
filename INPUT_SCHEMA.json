@@ -1,0 +1,16 @@
+{
+  "title": "Input schema for the example_python actor.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "search_term": {
+      "title": "search_term",
+      "type": "string",
+      "description": "Gene search term",
+      "editor": "textfield"
+    }
+  },
+  "required":[
+    "search_term"
+  ]
+}
